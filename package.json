@@ -1,0 +1,29 @@
+{
+  "name": "autonomous-job-engine",
+  "version": "1.0.0",
+  "description": "Unified autonomous job search & application engine with Gemini AI and communication channels",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "run": "node main.js run",
+    "login": "node main.js login",
+    "refresh": "node main.js refresh"
+  },
+  "keywords": [
+    "job-automation",
+    "naukri",
+    "wellfound",
+    "gemini-ai",
+    "auto-apply",
+    "playwright"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.14",
+    "playwright-core": "^1.45.0",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}

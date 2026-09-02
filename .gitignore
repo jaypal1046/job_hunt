@@ -1,0 +1,26 @@
+# Environment variables
+.env
+.env*.local
+.env.production
+
+# Dependencies
+node_modules/
+
+# Browser session profiles (contains cookies & authentication data)
+profiles/
+
+# Logs, caches, and runtime databases
+logs/
+*.log
+applications.csv
+*.pdf
+*.docx
+# System and OS files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
